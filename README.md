@@ -25,3 +25,5 @@ Extras
 - ANSI Normal/Bright for terminals included in alacritty.toml
 
 See `palette.yml` for machine-readable values.
+
+[Background source](https://lensdump.com/a/v1lOe/?sort=title_asc&page=1)
