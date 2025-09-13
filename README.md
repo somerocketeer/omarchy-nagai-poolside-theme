@@ -2,6 +2,8 @@
 
 A cool, serene poolside-inspired theme.
 
+<img width="3840" height="2560" alt="screenshot-2025-09-13_14-34-29" src="https://github.com/user-attachments/assets/3178cb13-f83f-45ff-bb73-c294cdf94c86" />
+
 ## Palette (Nagai Poolside)
 Core (aquatic, dark base)
 - Primary Background:   #0F1B22 (Deep poolnight blue-teal)
