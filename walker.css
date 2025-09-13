@@ -1,0 +1,11 @@
+@define-color selected-text #58AFD8;
+@define-color text #E6F1F4;
+@define-color base #0F1B22;
+@define-color border #58AFD8;
+@define-color foreground #E6F1F4;
+@define-color background #0F1B22;
+@define-color selected-gradient linear-gradient(90deg, #243C47 0%, #2A4652 100%);
+@define-color selected-accent #58AFD8;
+@define-color caret #D8C3A6;
+@define-color success #7CA348;
+@define-color success-alt #85DCC0;

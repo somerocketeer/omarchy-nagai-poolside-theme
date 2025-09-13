@@ -1,0 +1,14 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Node / tooling
+node_modules
+dist
+build
+
+# Logs
+*.log
+
+# OS junk
+._*

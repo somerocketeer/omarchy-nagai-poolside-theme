@@ -1,0 +1,42 @@
+# Nagai Poolside palette (machine-readable)
+primary_bg: "#0F1B22"        # Deep poolnight blue-teal
+secondary_bg: "#0B141A"      # Darker blue-black
+tertiary_bg: "#152B34"       # Elevated teal surface
+primary_accent: "#58AFD8"    # Luminous aqua (azure)
+secondary_accent: "#45A1DF"  # Clear sky-blue (azure)
+tertiary_accent: "#D8C3A6"   # Sunlit sand (beige)
+text_primary: "#E6F1F4"      # Porcelain
+text_secondary: "#C7DDE3"    # Misty ice-blue
+text_dim: "#88A6AE"          # Sea-slate (raised for readability)
+success: "#7CA348"           # Foliage green
+warning: "#EED59A"           # Sun-bleached sand
+error: "#FF6B6B"             # Warm coral-red
+info: "#45A1DF"              # Clear sky-blue (azure)
+selection_bg: "#243C47"
+
+green:
+  "300": "#AEE7D3"  # soft
+  "400": "#85DCC0"  # bright
+  "500": "#7CA348"  # primary (aligned to success/foliage)
+  "600": "#4BA88C"  # emphasis
+  "700": "#2F6F5D"  # graph
+
+# Terminal recommended ANSI (as used in Alacritty config)
+ansi_normal:
+  black:   "#0B141A"
+  red:     "#FF6B6B"
+  green:   "#7CA348"
+  yellow:  "#EED59A"
+  blue:    "#2295D9"
+  magenta: "#58AFD8"
+  cyan:    "#3A9FB7"
+  white:   "#E6F1F4"
+ansi_bright:
+  black:   "#2A4652"
+  red:     "#FF8A8A"
+  green:   "#85DCC0"
+  yellow:  "#F4E2B7"
+  blue:    "#58AFD8"
+  magenta: "#58AFD8"
+  cyan:    "#5EC2D6"
+  white:   "#FFFFFF"

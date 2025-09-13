@@ -1,0 +1,41 @@
+[colors.primary]
+background = "#0F1B22"
+foreground = "#E6F1F4"
+
+[colors.cursor]
+cursor = "#58AFD8"  # Aqua cursor
+text = "#0F1B22"
+
+[colors.selection]
+background = "#243C47"
+text = "#E6F1F4"
+
+[colors.normal]
+black   = "#0B141A"
+red     = "#FF6B6B"
+green   = "#7CA348"
+yellow  = "#EED59A"
+blue    = "#2295D9"
+magenta = "#58AFD8"
+cyan    = "#3A9FB7"
+white   = "#E6F1F4"
+
+[colors.bright]
+black   = "#2A4652"
+red     = "#FF8A8A"
+green   = "#85DCC0"
+yellow  = "#F4E2B7"
+blue    = "#58AFD8"
+magenta = "#58AFD8"
+cyan    = "#5EC2D6"
+white   = "#FFFFFF"
+
+[colors.dim]
+black   = "#0B141A"
+red     = "#E36464"
+green   = "#4BA88C"
+yellow  = "#E6D08A"
+blue    = "#45A1DF"
+magenta = "#58AFD8"
+cyan    = "#358FA4"
+white   = "#C7DDE3"

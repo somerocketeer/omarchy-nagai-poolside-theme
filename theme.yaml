@@ -1,0 +1,22 @@
+name: Nagai Poolside
+slug: nagai-poolside
+version: 0.1.0
+description: "A serene, poolside-inspired Omarchy theme with cool aquatic hues."
+license: MIT
+maintainers:
+  - name: mcw
+    email: ""
+tags: [dark, cool, aquatic]
+palette: palette.yml
+apps:
+  - alacritty
+  - waybar
+  - hyprland
+  - mako
+  - btop
+  - walker
+  - neovim
+  - chromium
+  - icons
+notes: |
+  Standalone theme project. No symlinks or Omarchy runtime integration yet.
