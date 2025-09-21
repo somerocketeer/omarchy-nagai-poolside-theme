@@ -62,8 +62,8 @@ scrolledwindow {
 
 row,
 .item {
-  padding: 6px 9px;
-  margin: 3px 0;
+  padding: 4.5px 6.75px;
+  margin: 2.25px 0;
   border-radius: 8px;
   color: @foreground;
   transition: background-color 120ms ease, border-color 120ms ease;
@@ -92,8 +92,8 @@ row:selected image,
 }
 
 child {
-  padding: 6px 9px;
-  margin: 3px 0;
+  padding: 4.5px 6.75px;
+  margin: 2.25px 0;
   border-radius: 8px;
   color: @foreground;
   transition: background-color 120ms ease, border-color 120ms ease;
