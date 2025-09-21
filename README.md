@@ -1,5 +1,7 @@
 # Omarchy Theme: Nagai Poolside
 
+Updated for Omarchy v3.0!
+
 A cool, serene poolside-inspired theme inspired by Hiroshi Nagai. 
 
 <img width="3840" height="2560" alt="image" src="https://github.com/user-attachments/assets/89ab8b19-c1c0-4e77-8622-b60f8907d79b" />
