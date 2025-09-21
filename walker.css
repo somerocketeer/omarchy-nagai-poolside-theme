@@ -9,3 +9,68 @@
 @define-color caret #D8C3A6;
 @define-color success #7CA348;
 @define-color success-alt #85DCC0;
+
+window {
+  background-color: @background;
+  color: @foreground;
+  border: 1px solid alpha(@border, 0.6);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+entry {
+  background-color: @base;
+  color: @text;
+  caret-color: @caret;
+  border: 1px solid alpha(@border, 0.6);
+  border-radius: 8px;
+  padding: 6px 10px;
+  box-shadow: none;
+}
+
+entry selection {
+  background-color: alpha(@selected-accent, 0.35);
+  color: @selected-text;
+}
+
+listview,
+listbox,
+scrolledwindow {
+  background-color: transparent;
+}
+
+row,
+.item {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  color: @foreground;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+row:hover,
+.item:hover {
+  background-color: alpha(@selected-accent, 0.12);
+}
+
+row:selected,
+row:selected:hover,
+.item:selected,
+.item:selected:hover {
+  background-color: alpha(@selected-accent, 0.22);
+  background-image: @selected-gradient;
+  color: @selected-text;
+  border-left: 3px solid @selected-accent;
+}
+
+row:selected label,
+.item:selected label,
+row:selected image,
+.item:selected image {
+  color: @selected-text;
+}
+
+.item:focus,
+row:focus {
+  outline: none;
+}
