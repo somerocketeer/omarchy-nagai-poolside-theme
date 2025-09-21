@@ -10,7 +10,9 @@
 @define-color success #7CA348;
 @define-color success-alt #85DCC0;
 
-window {
+window,
+#window,
+#box {
   background-color: @background;
   color: @foreground;
   border: 1px solid alpha(@border, 0.6);
@@ -18,7 +20,10 @@ window {
   padding: 12px;
 }
 
-entry {
+entry,
+#input,
+#password,
+#typeahead {
   background-color: @base;
   color: @text;
   caret-color: @caret;
@@ -31,6 +36,22 @@ entry {
 entry selection {
   background-color: alpha(@selected-accent, 0.35);
   color: @selected-text;
+}
+
+#search {
+  background-color: alpha(@base, 0.85);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+#prompt,
+#clear,
+#typeahead {
+  color: alpha(@foreground, 0.75);
+}
+
+#prompt {
+  margin-right: 8px;
 }
 
 listview,
@@ -70,7 +91,39 @@ row:selected image,
   color: @selected-text;
 }
 
+child {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 8px;
+  color: @foreground;
+  transition: background-color 120ms ease, border-color 120ms ease;
+  border-left: 3px solid transparent;
+}
+
+child:hover {
+  background-color: alpha(@selected-accent, 0.12);
+}
+
+child:selected,
+child:hover:selected {
+  background-color: alpha(@selected-accent, 0.22);
+  background-image: @selected-gradient;
+  color: @selected-text;
+  border-left: 3px solid @selected-accent;
+}
+
+child:selected #label,
+child:selected #sub,
+child:selected #icon,
+child:selected #activationlabel,
+child:selected #clear,
+child:selected #prompt,
+child:selected #typeahead {
+  color: @selected-text;
+}
+
 .item:focus,
-row:focus {
+row:focus,
+child:focus {
   outline: none;
 }
