@@ -117,12 +117,15 @@ return {
         hl.StatusLineNC   = { bg = c.bg_dark,      fg = c.comment }
         hl.TabLineSel     = { bg = c.bg_highlight, fg = c.magenta, bold = true }
 
-        -- Mode indicators (swap Insert/Visual colors)
-        local mode_fg   = c.bg
-        local insert_bg = c.magenta
-        local visual_bg = c.green
+        -- Mode indicators (improve Normal, swap Insert/Visual colors)
+        local mode_fg    = c.bg_dark
+        local normal_bg  = c.blue
+        local insert_bg  = c.green
+        local visual_bg  = c.magenta
+        hl.MiniStatuslineModeNormal = { fg = mode_fg, bg = normal_bg, bold = true }
         hl.MiniStatuslineModeInsert = { fg = mode_fg, bg = insert_bg, bold = true }
         hl.MiniStatuslineModeVisual = { fg = mode_fg, bg = visual_bg, bold = true }
+        hl.lualine_a_normal          = { fg = mode_fg, bg = normal_bg, bold = true }
         hl.lualine_a_insert          = { fg = mode_fg, bg = insert_bg, bold = true }
         hl.lualine_a_visual          = { fg = mode_fg, bg = visual_bg, bold = true }
       end,
