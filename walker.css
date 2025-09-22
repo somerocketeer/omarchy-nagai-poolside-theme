@@ -17,7 +17,7 @@ window,
   color: @foreground;
   border: 1px solid alpha(@border, 0.6);
   border-radius: 12px;
-  padding: 12px;
+  padding: 6px;
 }
 
 entry,
@@ -29,7 +29,7 @@ entry,
   caret-color: @caret;
   border: 1px solid alpha(@border, 0.6);
   border-radius: 8px;
-  padding: 6px 10px;
+  padding: 4px 8px;
   box-shadow: none;
 }
 
@@ -41,7 +41,7 @@ entry selection {
 #search {
   background-color: alpha(@base, 0.85);
   border-radius: 10px;
-  padding: 8px;
+  padding: 6px;
 }
 
 #prompt,
@@ -62,26 +62,27 @@ scrolledwindow {
 
 row,
 .item {
-  padding: 4.5px 6.75px;
-  margin: 2.25px 0;
+  padding: 2.5px 5px;
+  margin: 1px 0;
   border-radius: 8px;
   color: @foreground;
   transition: background-color 120ms ease, border-color 120ms ease;
+  border-left: 1px solid transparent;
 }
 
 row:hover,
 .item:hover {
-  background-color: alpha(@selected-accent, 0.12);
+  background-color: alpha(@selected-accent, 0.08);
 }
 
 row:selected,
 row:selected:hover,
 .item:selected,
 .item:selected:hover {
-  background-color: alpha(@selected-accent, 0.22);
+  background-color: alpha(@selected-accent, 0.15);
   background-image: @selected-gradient;
   color: @selected-text;
-  border-left: 3px solid @selected-accent;
+  border-left: 1px solid @selected-accent;
 }
 
 row:selected label,
@@ -92,24 +93,24 @@ row:selected image,
 }
 
 child {
-  padding: 4.5px 6.75px;
-  margin: 2.25px 0;
+  padding: 2.5px 5px;
+  margin: 1px 0;
   border-radius: 8px;
   color: @foreground;
   transition: background-color 120ms ease, border-color 120ms ease;
-  border-left: 3px solid transparent;
+  border-left: 1px solid transparent;
 }
 
 child:hover {
-  background-color: alpha(@selected-accent, 0.12);
+  background-color: alpha(@selected-accent, 0.08);
 }
 
 child:selected,
 child:hover:selected {
-  background-color: alpha(@selected-accent, 0.22);
+  background-color: alpha(@selected-accent, 0.15);
   background-image: @selected-gradient;
   color: @selected-text;
-  border-left: 3px solid @selected-accent;
+  border-left: 1px solid @selected-accent;
 }
 
 child:selected #label,
